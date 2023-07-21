@@ -1,0 +1,8 @@
+name: Release CI
+
+on: [push]
+
+jobs:
+  build:
+    uses: https://github.com/lencx/ChatGPT/blob/main/.github/workflows/release.yml
+    secrets: inherit
